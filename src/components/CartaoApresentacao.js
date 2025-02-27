@@ -1,10 +1,11 @@
-import { View, Text } from 'react-native'
+import { View, Text, Image, StyleSheet } from 'react-native'
 import React from 'react'
 
 const CartaoApresentacao = () => {
   return (
-    <View>
-      <Text>CartaoApresentacao</Text>
+    <View style={styles.container}>
+      <Image
+        source={{ uri: 'https://avatars.githubusercontent.com/u/1?v=4' }}
     </View>
   )
 }
