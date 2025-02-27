@@ -55,7 +55,22 @@ const styles = StyleSheet.create({
     botoesContainer: {
         flexDirection: 'row',
         marginTop: 10,
-    }
+    },
+
+    botaoGithub: {
+        backgroundColor: '#333',
+    },
+
+    botaoLinkedin: {
+        backgroundColor: '#0077b5'
+    },
+
+    textoBotao: {
+        color: '#fff',
+        fontSize: 16,
+        fontWeight: 'bold',
+    },
+
 })
 
 export default CartaoApresentacao
